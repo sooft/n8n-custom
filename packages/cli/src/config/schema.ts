@@ -325,7 +325,7 @@ export const schema = {
 		releaseChannel: {
 			doc: 'N8N release channel',
 			format: ['stable', 'beta', 'nightly', 'dev'] as const,
-			default: 'dev',
+			default: 'stable',
 			env: 'N8N_RELEASE_TYPE',
 		},
 
